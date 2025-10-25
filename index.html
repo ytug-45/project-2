@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShyManga</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-row">
+      <a href="#home" class="Logo">
+        <img src="images/ChatGPT Image 18 окт. 2025 г., 19_05_58.png" class="logo" alt="Logo">
+      </a>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header-nav">
+    <li class="header-nav__item">
+        <a href="#home" class="header-nav__link">Главная</a>
+    </li>
+    <li class="header-nav__item">
+        <a href="#manga" class="header-nav__link">Новинки</a>
+    </li>
+    <li class="header-nav__item">
+        <a href="#discounts" class="header-nav__link">Скидки</a>
+    </li>
+    <li class="header-nav__item">
+        <a href="#order" class="header-nav__link">Как заказать</a>
+    </li>
+</ul>
+
+      <a href="#" class="button bg-primary">Корзина</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+  <section class="content-section">
+    <div class="content-wrapper">
+      <div class="content-text">
+        <h2 class="typewriter" id="welcome-text"></h2>
+      <p>ShyManga — Новый гик магазин по продаже манг в Казахстане. У нас вы найдете новинки, скидки и эксклюзивные товары.</p>
+      </div>
+      <div class="content-image">
+        <img src="images/manga-plus-featured.jpg" alt="Обложка">
+      </div>
+    </div>
+  </section>
+</section>
+
+
+    <section class="cards-section">
+      <div class="cards-row top-row animate-on-scroll"></div>
+      <div class="cards-row bottom-row animate-on-scroll"></div>
+    </section>
+
+    <section class="products" id="manga">
+      <div class="container">
+        <div class="products-header animate-on-scroll">
+          <h3 class="title">Новинки</h3>
+          <a href="#Новинки" class="button bg-primary">Фильтр</a>
+        </div>
+
+        <div class="products-list">
+          <div class="product-item animate-on-scroll">
+            <img src="images/j.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Jujutsu Kaisen</h4>
+            <p class="product-item__description">Фэнтези, экшен</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 3990 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/dr.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Demon Slayer</h4>
+            <p class="product-item__description">Манга, приключения</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 3590 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/ga.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Gachiakuta</h4>
+            <p class="product-item__description">Боевик, драма</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 4200 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+        </div>
+        <div class="products-list">
+          <div class="product-item animate-on-scroll">
+            <img src="images/dn.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Dan Da Dan</h4>
+            <p class="product-item__description">Фэнтези, экшен</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 3990 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/btr.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Bocchi The Rock</h4>
+            <p class="product-item__description">Повсдневка</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 3590 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/kagura.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Kagurabaci</h4>
+            <p class="product-item__description">Боевик, драма</p>
+            <div class="product-item__footer">
+              <span class="product-item__price">от 4200 ₸</span>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="discounts">
+      <div class="container">
+        <div class="products-header animate-on-scroll">
+          <h3 class="title">Скидки</h3>
+        </div>
+        <div class="products-list">
+          <div class="product-item animate-on-scroll">
+            <img src="images/hp.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Hells paradise</h4>
+            <p class="product-item__description">Фэнтези, экшен</p>
+            <div class="product-item__footer">
+              <div class="price-block">
+                <span class="old-price">4300</span>
+                <span class="new-price">2760</span>
+                <span class="discount"></span>
+              </div>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/vagabond.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Vagabond</h4>
+            <p class="product-item__description">Манга, приключения</p>
+            <div class="product-item__footer">
+              <div class="price-block">
+                <span class="old-price">3590</span>
+                <span class="new-price">2990</span>
+                <span class="discount"></span>
+              </div>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+
+          <div class="product-item animate-on-scroll">
+            <img src="images/at.avif" class="product-item__img" alt="">
+            <h4 class="product-item__title">Attack on Titan</h4>
+            <p class="product-item__description">Боевик, драма</p>
+            <div class="product-item__footer">
+              <div class="price-block">
+                <span class="old-price">4200</span>
+                <span class="new-price">3150</span>
+                <span class="discount"></span>
+              </div>
+              <button class="select-btn">Выбрать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-to-order" id="order">
+      <div class="container">
+        <h2 class="title animate-on-scroll">Как заказать</h2>
+        <div class="steps">
+          <div class="step animate-on-scroll">
+            <div class="step-number">1</div>
+            <h3>Выберите мангу</h3>
+            <p>Просмотрите каталог и добавьте понравившиеся товары в корзину.</p>
+          </div>
+          <div class="step animate-on-scroll">
+            <div class="step-number">2</div>
+            <h3>Оформите заказ</h3>
+            <p>Перейдите в корзину, заполните данные для доставки и оплатите заказ.</p>
+          </div>
+          <div class="step animate-on-scroll">
+            <div class="step-number">3</div>
+            <h3>Получите мангу</h3>
+            <p>Мы отправим вашу мангу в кратчайшие сроки. Приятного чтения!</p>
+          </div>
+        </div>
+
+        <div class="order-form-wrapper animate-on-scroll">
+          <h3 class="form-title">Оставьте заявку</h3>
+          <p class="form-desc">Мы свяжемся с вами для подтверждения заказа</p>
+          <form class="order-form" id="orderForm">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Телефон" required>
+            <textarea name="message" placeholder="Комментарий к заказу" rows="3"></textarea>
+            <button type="submit" class="button bg-primary">Отправить</button>
+          </form>
+          <p class="form-success" id="formSuccess" style="display:none;">✅ Спасибо! Мы скоро с вами свяжемся.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-column">
+    </div>
+
+    <div class="footer-column">
+      <h4>Навигация</h4>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#manga">Новинки</a></li>
+        <li><a href="#discounts">Скидки</a></li>
+        <li><a href="#order">Как заказать</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Контакты</h4>
+      <p>Email: info@shymanga.kz</p>
+      <p>Телефон: +7 777 123 45 67</p>
+      <p>Адрес: г. Алматы, Казахстан</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Соцсети</h4>
+      <div class="socials">
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Telegram</a>
+        <a href="#" class="social-link">TikTok</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 ShyManga. Все права защищены.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
